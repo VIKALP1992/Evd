@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'rest_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'coreco',
+        'NAME': 'coreconew',
         'USER':'postgres',
         'PASSWORD':'root',
     }
@@ -132,4 +132,4 @@ REST_FRAMEWORK = {
     ]
 }
 import dj_database_url
-DATABASES['coreco'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
+DATABASES['coreconew'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
